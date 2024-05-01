@@ -1,0 +1,613 @@
+<!DOCTYPE html><html lang="pt-br"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Avalie Kabum - Inicio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicon3.jpg">
+
+            <script>
+                const v_123_pageId = "663080e09cc52b029849da7c";
+                const v_123_siteId = "66306f3278ae61eaa40a1511";
+                const v_123_siteType = "HTML";
+                const v_123_slug = null;
+            </script>
+
+            </head>
+<body><header>
+    <nav class="navbar fixed-top navbar-expand-lg bg-nav border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#" id="umdoistrestplink1">
+                <img src="images/logo.svg" alt="Logo" width="74" height="25" class="d-inline-block align-text-top">
+              </a>
+              <a class="navbar-brand" href="#" id="umdoistrestplink2">
+                <img src="images/cart.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+              </a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            </div>
+        </div>
+    </nav>
+</header>
+
+    <div id="main"> 
+        <div class="card" id="pergunta1">
+            <div class="text-center col-xs-12">
+                <div class="card__logo">
+                    <img src="images/page1.jpeg">
+                </div>
+                <div class="card__satisfacao">
+                <h2>
+                    Em uma escala de 0 a 5, como você classificaria a presença da marca Kabum nas redes sociais?
+                </h2>
+                <div class="card__gradeContainer">
+                    <span class="card__grade star" data-rating="1">★</span>
+                    <span class="card__grade star" data-rating="2">★</span>
+                    <span class="card__grade star" data-rating="3">★</span>
+                    <span class="card__grade star" data-rating="4">★</span>
+                    <span class="card__grade star" data-rating="5">★</span>
+                    <input type="hidden" name="rating" class="rating-value" value="0">
+                </div>
+                <div class="card__gradeDescricao">
+                    <p>Muito ruim</p>
+                    <p>Muito bom</p>
+                </div>
+                </div>
+                <div class="card__resposta">
+                    <h2>
+                        Como você avalia a nossa presença no mercado online?
+                    </h2>
+                    <div class="menu-group">
+                        <button class="button-one" onclick="buttonOne()">Forte e influente</button>
+                        <button class="button-one" onclick="buttonOne()">Fraca e pouco relevante</button>
+                    </div>
+                </div>
+                <div class="card__resposta mt-3">
+                    <h2>
+                        Como você avalia a nossa presença no mercado de lojas físicas?
+                    </h2>
+                    <div class="menu-group">
+                        <button class="button-two" onclick="buttonTwo()">Amplamente estabelecida e reconhecida</button>
+                        <button class="button-two" onclick="buttonTwo()">Limitada e pouco expressiva</button>
+                    </div>
+                </div>
+                <div class="d-grid gap-2 mt-2">
+                    <button class="btn btn-primary" type="button" onclick="avancarPergunta(1)">Enviar avaliação</button>
+                  </div>
+            </div>
+        </div>
+        <div class="card" id="pergunta2" style="display: none;">
+            <div class="text-center col-xs-12">
+                <div class="card__logo">
+                    <img src="images/page2.jpeg">
+                </div>
+                <div class="card__satisfacao">
+                <h2>
+                    De 0 a 5, o quanto você acredita que a marca Kabum se destaca em relação �&nbsp; concorrência?
+                </h2>
+                <div class="card__gradeContainer">
+                    <span class="card__grade star" data-rating="1">★</span>
+                    <span class="card__grade star" data-rating="2">★</span>
+                    <span class="card__grade star" data-rating="3">★</span>
+                    <span class="card__grade star" data-rating="4">★</span>
+                    <span class="card__grade star" data-rating="5">★</span>
+                    <input type="hidden" name="rating" class="rating-value" value="0">
+                </div>
+                <div class="card__gradeDescricao">
+                    <p>Muito ruim</p>
+                    <p>Muito bom</p>
+                </div>
+                </div>
+                <div class="card__resposta">
+                    <h2>
+                        Qual é a sua preferência ao fazer compras conosco?
+                    </h2>
+                    <div class="menu-group">
+                        <button class="button-one" onclick="buttonOne()">Compras online</button>
+                        <button class="button-one" onclick="buttonOne()">Compras em lojas físicas</button>
+                    </div>
+                </div>
+                <div class="card__resposta mt-3">
+                    <h2>
+                        Como você classificaria a variedade de produtos oferecidos por nós?
+                    </h2>
+                    <div class="menu-group">
+                        <button class="button-two" onclick="buttonTwo()">Extensa e diversificada</button>
+                        <button class="button-two" onclick="buttonTwo()">Limitada e restrita</button>
+                    </div>
+                </div>
+                <div class="d-grid gap-2 mt-2">
+                    <button class="btn btn-primary" type="button" onclick="avancarPergunta(2)">Enviar avaliação</button>
+                  </div>
+            </div>
+        </div>
+        <div class="card" id="pergunta3" style="display: none;">
+            <div class="text-center col-xs-12">
+                <div class="card__logo">
+                    <img src="images/page3.jpeg">
+                </div>
+                <div class="card__satisfacao">
+                <h2>
+                    Em uma escala de 0 a 5, quão memorável você acha que é o logotipo da marca Kabum?
+                </h2>
+                <div class="card__gradeContainer">
+                    <span class="card__grade star" data-rating="1">★</span>
+                    <span class="card__grade star" data-rating="2">★</span>
+                    <span class="card__grade star" data-rating="3">★</span>
+                    <span class="card__grade star" data-rating="4">★</span>
+                    <span class="card__grade star" data-rating="5">★</span>
+                    <input type="hidden" name="rating" class="rating-value" value="0">
+                </div>
+                <div class="card__gradeDescricao">
+                    <p>Muito ruim</p>
+                    <p>Muito bom</p>
+                </div>
+                </div>
+                <div class="card__resposta">
+                    <h2>
+                        Qual é a sua opinião sobre a qualidade dos produtos que vendemos?
+                    </h2>
+                    <div class="menu-group">
+                        <button class="button-one" onclick="buttonOne()">Alta qualidade</button>
+                        <button class="button-one" onclick="buttonOne()">Qualidade inferior</button>
+                    </div>
+                </div>
+                <div class="card__resposta mt-3">
+                    <h2>
+                        Como você avalia o atendimento ao cliente oferecido por nós?
+                    </h2>
+                    <div class="menu-group">
+                        <button class="button-two" onclick="buttonTwo()">Excelente e satisfatório</button>
+                        <button class="button-two" onclick="buttonTwo()">Insatisfatório e precisa melhorar</button>
+                    </div>
+                </div>
+                <div class="d-grid gap-2 mt-2">
+                    <button class="btn btn-primary" type="button" onclick="avancarPergunta(3)">Enviar avaliação</button>
+                  </div>
+            </div>
+        </div>
+        <div class="card" id="pergunta4" style="display: none;">
+            <div class="text-center col-xs-12">
+                <div class="card__logo">
+                    <img src="images/page4.jpeg">
+                </div>
+                <div class="card__satisfacao">
+                <h2>
+                    De 0 a 5, qual é o seu nível de confiança na marca Kabum em relação �&nbsp; proteção de dados do cliente?
+                </h2>
+                <div class="card__gradeContainer">
+                    <span class="card__grade star" data-rating="1">★</span>
+                    <span class="card__grade star" data-rating="2">★</span>
+                    <span class="card__grade star" data-rating="3">★</span>
+                    <span class="card__grade star" data-rating="4">★</span>
+                    <span class="card__grade star" data-rating="5">★</span>
+                    <input type="hidden" name="rating" class="rating-value" value="0">
+                </div>
+                <div class="card__gradeDescricao">
+                    <p>Muito ruim</p>
+                    <p>Muito bom</p>
+                </div>
+                </div>
+                <div class="card__resposta">
+                    <h2>
+                        Qual é a sua percepção em relação aos preços praticados por nós?
+                    </h2>
+                    <div class="menu-group">
+                        <button class="button-one" onclick="buttonOne()">Preços competitivos</button>
+                        <button class="button-one" onclick="buttonOne()">Preços elevados</button>
+                    </div>
+                </div>
+                <div class="card__resposta mt-3">
+                    <h2>
+                        Como você classificaria a experiência de compra conosco em termos de facilidade de uso do site ou loja física?
+                    </h2>
+                    <div class="menu-group">
+                        <button class="button-two" onclick="buttonTwo()">Muito fácil de usar</button>
+                        <button class="button-two" onclick="buttonTwo()">Difícil de usar e confusa</button>
+                    </div>
+                </div>
+                <div class="d-grid gap-2 mt-2">
+                    <button class="btn btn-primary" type="button" onclick="avancarPergunta(4)">Enviar avaliação</button>
+                  </div>
+            </div>
+        </div>
+        <div class="card" id="pergunta5" style="display: none;">
+            <div class="text-center col-xs-12">
+                <div class="card__logo">
+                    <img class="img-fluid" src="images/page5.png">
+                </div>
+                <div class="card__satisfacao">
+                <h2>
+                    Em uma escala de 0 a 5, quão bem você acha que a marca Kabum entende e atende �&nbsp;s necessidades dos consumidores?
+                </h2>
+                <div class="card__gradeContainer">
+                    <span class="card__grade star" data-rating="1">★</span>
+                    <span class="card__grade star" data-rating="2">★</span>
+                    <span class="card__grade star" data-rating="3">★</span>
+                    <span class="card__grade star" data-rating="4">★</span>
+                    <span class="card__grade star" data-rating="5">★</span>
+                    <input type="hidden" name="rating" class="rating-value" value="0">
+                </div>
+                <div class="card__gradeDescricao">
+                    <p>Muito ruim</p>
+                    <p>Muito bom</p>
+                </div>
+                </div>
+                <div class="card__resposta">
+                    <h2>
+                        Como você avalia o tempo de entrega dos produtos comprados conosco?
+                    </h2>
+                    <div class="menu-group">
+                        <button class="button-one" onclick="buttonOne()">Rápido e dentro do prazo</button>
+                        <button class="button-one" onclick="buttonOne()">Demorado e fora do praz</button>
+                    </div>
+                </div>
+                <div class="card__resposta mt-3">
+                    <h2>
+                        Você considera nossa loja confiável em relação �&nbsp; qualidade dos produtos e cumprimento dos prazos de entrega?
+                    </h2>
+                    <div class="menu-group">
+                        <button class="button-two" onclick="buttonTwo()">Sim, confiável</button>
+                        <button class="button-two" onclick="buttonTwo()">Não, não confiável</button>
+                    </div>
+                </div>
+                <div class="d-grid gap-2 mt-2">
+                    <button class="btn btn-primary" type="button" onclick="avancarPergunta(5)">Enviar avaliação</button>
+                  </div>
+            </div>
+        </div>
+        <div class="card" id="pergunta6" style="display: none;">
+            <div class="text-center col-xs-12">
+                <div class="card__logo">
+                    <img src="images/page6.jpeg">
+                </div>
+                <div class="card__satisfacao">
+                <h2>
+                    De 0 a 5, o quanto você acredita que a marca Kabum é associada a valores positivos?
+                </h2>
+                <div class="card__gradeContainer">
+                    <span class="card__grade star" data-rating="1">★</span>
+                    <span class="card__grade star" data-rating="2">★</span>
+                    <span class="card__grade star" data-rating="3">★</span>
+                    <span class="card__grade star" data-rating="4">★</span>
+                    <span class="card__grade star" data-rating="5">★</span>
+                    <input type="hidden" name="rating" class="rating-value" value="0">
+                </div>
+                <div class="card__gradeDescricao">
+                    <p>Muito ruim</p>
+                    <p>Muito bom</p>
+                </div>
+                </div>
+                <div class="card__resposta">
+                    <h2>
+                        Recomendaria nossa loja a outras pessoas?
+                    </h2>
+                    <div class="menu-group">
+                        <button class="button-one" onclick="buttonOne()">Sim, definitivamente</button>
+                        <button class="button-one" onclick="buttonOne()">Não, não recomendaria</button>
+                    </div>
+                </div>
+                <div class="card__resposta mt-3">
+                    <h2>
+                        Em geral, qual é a sua satisfação com a experiência de compra em nossa loja?
+                    </h2>
+                    <div class="menu-group">
+                        <button class="button-two" onclick="buttonTwo()">Muito satisfeito</button>
+                        <button class="button-two" onclick="buttonTwo()">Insatisfeito</button>
+                    </div>
+                </div>
+                <div class="d-grid gap-2 mt-2">
+                    <button class="btn btn-primary" type="button" onclick="avancarPergunta(6)">Enviar avaliação</button>
+                  </div>
+            </div>
+        </div>
+        <div class="card" id="pergunta7" style="display: none;">
+            <div class="text-center col-xs-12">
+                <h2>PARABÉNS!</h2>
+                <img class="img-fluid rounded" src="images/parabenss.png" alt="parabens">
+                <p>Parabéns por concluir quiz! Como agradecimento e recompensa, você ganhou um <span class="fw-bold">DESCONTO</span> dos Produtos Kabum! Clique no botão <span class="fw-bold">RESGATAR</span> abaixo para resgatar seu prêmio.
+                    Esperamos que aproveite os produtos e que eles tragam ainda mais diversão e tecnologia para o seu dia a dia.
+                    <br>
+                    Com carinho,<br>
+                    Equipe <span class="fw-bold">Kabum</span>.</p>
+                    <button class="botao" onclick="avancarPergunta(7)" type="button">Resgatar</button>
+            </div>
+        </div>
+    </div>
+    <div class="row mx-0" id="pergunta8" style="display: none;">
+        <div class="col-6 col-md-4 mt-1">
+          <div class="card">
+            <div class="card-body">
+                <img src="images/kit1.jpg" alt="kit gamer" class="img-fluid">
+              <span class="fw-bold">Kit Gamer Redragon RGB</span><br>
+              <span class="fw-light product-price text-decoration-line-through">R$ 429,90</span><br>
+              <span class="fw-bold">R$ 0,00</span><br>
+              <button class="btn-resgate btn btn-laranja" onclick="avancarPergunta(8)" type="button">Resgatar</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 mt-1 px-1">
+            <div class="card">
+              <div class="card-body">
+                  <img src="images/kit2.jpg" alt="kit gamer" class="img-fluid">
+                <span class="fw-bold">Kit Gamer Redragon RGB</span><br>
+                <span class="fw-light product-price text-decoration-line-through">R$ 429,90</span><br>
+                <span class="fw-bold">R$ 0,00</span><br>
+                <button class="btn-resgate btn btn-laranja" onclick="avancarPergunta(9)" type="button">Resgatar</button>
+              </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 mt-1 px-1">
+            <div class="card">
+              <div class="card-body">
+                  <img src="images/pcgaymer.jpg" alt="kit gamer" class="img-fluid">
+                <span class="fw-bold">PC Gamer Concórdia Processador Core i5-10400F</span><br>
+                <span class="fw-light product-price text-decoration-line-through">R$ 3.175,50</span><br>
+                <span class="fw-bold">R$ 0,00</span><br>
+                <button class="btn-resgate btn btn-laranja" onclick="avancarPergunta(10)" type="button">Resgatar</button>
+              </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 mt-1 px-1">
+            <div class="card">
+              <div class="card-body">
+                  <img src="images/cadeira1.jpg" alt="cadeira gamer" class="img-fluid">
+                <span class="fw-bold">Cadeira Gamer Prizi Amarela</span><br>
+                <span class="fw-light product-price text-decoration-line-through">R$ 379,90</span><br>
+                <span class="fw-bold">R$ 0,00</span><br>
+                <button class="btn-resgate btn btn-laranja" onclick="avancarPergunta(11)" type="button">Resgatar</button>
+              </div>
+        </div>
+        </div>
+        <div class="col-6 col-md-4 mt-1 px-1">
+            <div class="card">
+              <div class="card-body">
+                  <img src="images/cadeira2.jpg" alt="cadeira gamer" class="img-fluid">
+                <span class="fw-bold">Cadeira Gamer Rise Preta</span><br>
+                <span class="fw-light product-price text-decoration-line-through">R$ 379,90</span><br>
+                <span class="fw-bold">R$ 0,00</span><br>
+                <button class="btn-resgate btn btn-laranja" onclick="avancarPergunta(12)" type="button">Resgatar</button>
+              </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 mt-1 px-1">
+            <div class="card">
+              <div class="card-body">
+                  <img src="images/cadeira3.jpg" alt="cadeira gamer" class="img-fluid">
+                <span class="fw-bold">Cadeira Gamer Prizi Vermelha</span><br>
+                <span class="fw-light product-price text-decoration-line-through">R$ 379,90</span><br>
+                <span class="fw-bold">R$ 0,00</span><br>
+                <button class="btn-resgate btn btn-laranja" onclick="avancarPergunta(13)" type="button">Resgatar</button>
+              </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 mt-1 px-1">
+            <div class="card">
+              <div class="card-body">
+                  <img src="images/cadeira4.jpg" alt="cadeira gamer" class="img-fluid">
+                <span class="fw-bold">Cadeira Gamer Prizi Azul</span><br>
+                <span class="fw-light product-price text-decoration-line-through">R$ 379,90</span><br>
+                <span class="fw-bold">R$ 0,00</span><br>
+                <button class="btn-resgate btn btn-laranja" onclick="avancarPergunta(14)" type="button">Resgatar</button>
+              </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 mt-1 px-1">
+            <div class="card">
+                <div class="card-body">
+                    <img src="images/monitor-165.jpg" alt="cadeira gamer" class="img-fluid">
+                    <span class="fw-bold">Monitor Gamer Concórdia</span><br>
+                    <span class="fw-light product-price text-decoration-line-through">R$ 639,99</span><br>
+                    <span class="fw-bold">R$ 0,00</span><br>
+                    <button class="btn-resgate btn btn-laranja" onclick="avancarPergunta(15)" type="button">Resgatar</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 mt-1 px-1">
+    <div class="card">
+      <div class="card-body">
+          <img src="images/monitor%20samsung.jpg" class="img-fluid">
+        <span class="fw-bold">Monitor Gamer Samsung 75hz</span><br>
+        <span class="fw-light product-price text-decoration-line-through">R$ 559,99</span><br>
+        <span class="fw-bold">R$ 0,00</span><br>
+        <button class="btn-resgate btn btn-laranja" onclick="avancarPergunta(16)" type="button">Resgatar</button>
+    </div>
+</div>
+        </div>
+        <div class="col-6 col-md-4 mt-1 px-1">
+            <div class="card">
+            <div class="card-body">
+            <img src="images/notebook.jpg" alt="cadeira gamer" class="img-fluid">
+            <span class="fw-bold">Notebook Galaxy Book Go </span><br>
+            <span class="fw-light product-price text-decoration-line-through">R$ 1.399,99</span><br>
+            <span class="fw-bold">R$ 0,00</span><br>
+            <a href="#" class="btn-resgate mt-2 btn botton-red" id="umdoistrestplink3">Esgotado</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="row mx-0 mt-5" id="pergunta9" style="display: none; --bs-gutter-x: 0; padding-top:25px">
+        <div class="col-12">
+                <h2 class="color-main mb-0 ps-3" style="font-size: smaller">Kit Gamer Redragon RGB Headset Lamia 2 Surround 7.1 + Teclado Kumara Switch Outemu Blue + Mouse Cobra V2, 12400DPI, Branco - S125W</h2>
+            </div>
+            
+            <img class="img-fluid text" src="images/kit1.jpg">
+            <p class="text-center mt-2" style="font-size: smaller;">Vendido e entregue por: <strong>KaBuM!</strong> | <strong style="color: green;">Em estoque</strong></p>
+            <hr>
+            <span class="fs-6 fw-light product-price text-decoration-line-through text ps-5">R$ 429,90</span><br>
+                <span class="fw-bold fs-1 ps-5">R$ 0,00</span><br>
+                <div class="d-flex justify-content-center mt-3">
+                    <a href="https://pay.minhavega.com/PyE2ZyO5bR0gqRb" class="mt-2 btn btn-success bg-main no-border btn-resgate-product" id="umdoistrestplink4">Resgatar agora</a>
+                </div>
+                <div class="descricao mt-5">
+                <img class="img-fluid" src="images/kit-redragon-branco.png" alt="">
+                </div>
+                <img class="img-fluid mt-5" src="images/desc.png">
+        </div>
+    <div class="row mx-0" id="pergunta10" style="display: none; --bs-gutter-x: 0; padding-top:75px">
+        <div class="col-12">
+                <h2 class="color-main mb-0 ps-3" style="font-size: smaller">Kit Gamer Redragon RGB, Headset Lamia 2 Surround 7.1 + Teclado Kumara Switch Outemu Blue + Mouse Cobra M711 12400 DPI, Preto - S125</h2>
+            </div>
+            
+            <img class="img-fluid" src="images/kit2.jpg">
+            <p class="text-center mt-2" style="font-size: smaller;">Vendido e entregue por: <strong>KaBuM!</strong> | <strong style="color: green;">Em estoque</strong></p>
+            <hr>
+            <span class="fs-6 fw-light product-price text-decoration-line-through ps-5">R$ 429,90</span><br>
+                <span class="fw-bold fs-1 ps-5">R$ 0,00</span><br>
+                <div class="d-flex justify-content-center mt-3">
+                    <a href="https://pay.minhavega.com/bz5KZb78rRBG7dL" class="mt-2 btn btn-success bg-main no-border btn-resgate-product" id="umdoistrestplink5">Resgatar agora</a>
+                </div>
+                <div class="descricao">
+                <img class="img-fluid" src="images/kit-redragon-preto.png" alt="">
+                </div>
+                <img class="img-fluid mt-5" src="images/desc.png">
+        </div>
+    <div class="row mx-0" id="pergunta11" style="display: none; --bs-gutter-x: 0; padding-top:75px">
+        <div class="col-12">
+            <h2 class="color-main mb-0 ps-3" style="font-size: smaller">PC Gamer Concórdia Processador Core i5-10400F, RGB, Geforce GTX1650, 8GB, SSD 480GB, Preto - 32726</h2>
+            <div class="star-inner fw-bold">
+                <img class="img-fluid" src="images/kit-motospeed.png" alt="Kit Gamer Motospeed Preto">
+            </div>
+            <img class="img-fluid" src="images/pcgaymer.jpg" alt="Kit Gamer Motospeed Preto">
+            <p class="text-center mt-2" style="font-size: smaller;">Vendido e entregue por: <strong>KaBuM!</strong> | <strong style="color: green;">Em estoque</strong></p>
+            <hr>
+            <span class="fs-6 fw-light product-price text-decoration-line-through ps-5">R$ 3.175,50</span><br>
+                <span class="fw-bold fs-1 ps-5">R$ 0,00</span><br>
+                <div class="d-flex justify-content-center mt-3">
+                    <a href="https://pay.minhavega.com/7vJOGYB5OABgKXd" class="mt-2 btn btn-success bg-main no-border btn-resgate-product" id="umdoistrestplink6">Resgatar agora</a>
+                </div>
+                <div class="descricao">
+                
+                </div>
+                <img class="img-fluid mt-5" src="images/desc.png">
+        </div>
+    </div>
+    <div class="row mx-0" id="pergunta12" style="display: none; --bs-gutter-x: 0; padding-top:75px">
+        <div class="col-12">
+            <h2 class="color-main mb-0 ps-3" style="font-size: smaller">Cadeira Gamer Prizi, Amarela, Com Almofadas - JX-1039Y</h2>
+            <div class="star-inner fw-bold">
+                <img class="img-fluid" src="images/cadeira-prizi-amarela.png" alt="Cadeira Gamer Prizi Amarela">
+             </div>
+            <img class="img-fluid" src="images/cadeira1.jpg" alt="Cadeira Gamer Prizi Amarela">
+            <p class="text-center mt-2" style="font-size: smaller;">Vendido e entregue por: <strong>KaBuM!</strong> | <strong style="color: green;">Em estoque</strong></p>
+            <hr>
+            <span class="fs-6 fw-light product-price text-decoration-line-through ps-5">R$ 379,90</span><br>
+                <span class="fw-bold fs-1 ps-5">R$ 0,00</span><br>
+                <div class="d-flex justify-content-center mt-3">
+                    <a href="https://pay.minhavega.com/yOeXZKboV8Q3AQa" class="mt-2 btn btn-success bg-main no-border btn-resgate-product" id="umdoistrestplink7">Resgatar agora</a>
+                </div>
+                <div class="descricao">
+                <img class="img-fluid" src="images/cadeira-amarela.png" alt="">
+                </div>
+                <img class="img-fluid mt-5" src="images/desc.png">
+        </div>
+    </div>
+    <div class="row mx-0" id="pergunta13" style="display: none; --bs-gutter-x: 0; padding-top:70px;">
+        <div class="col-12">
+            <h2 class="color-main mb-0 ps-3" style="font-size: smaller">Cadeira Gamer Rise Mode Z3, Ângulo Ajustável, Braço 2D, Preto - RM-CG-03-BK</h2>
+            <div class="star-inner fw-bold">
+                <img class="img-fluid" src="images/cadeira-rise.png" alt="Cadeira Gamer Rise Preta">
+            </div>
+            <img class="img-fluid" src="images/cadeira2.jpg" alt="Cadeira Gamer Rise Preta">
+            <p class="text-center mt-2" style="font-size: smaller;">Vendido e entregue por: <strong>KaBuM!</strong> | <strong style="color: green;">Em estoque</strong></p>
+            <hr>
+            <span class="fs-6 fw-light product-price text-decoration-line-through ps-5">R$ 379,90</span><br>
+                <span class="fw-bold fs-1 ps-5">R$ 0,00</span><br>
+                <div class="d-flex justify-content-center mt-3">
+                    <a href="https://pay.minhavega.com/z0qn35xrk8yg98m" class="mt-2 btn btn-success bg-main no-border btn-resgate-product" id="umdoistrestplink8">Resgatar agora</a>
+                </div>
+                <div class="descricao">
+                 <img class="img-fluid" src="images/Cadeira%20Rise.png" alt="">
+                </div>
+                <img class="img-fluid mt-5" src="images/desc.png">
+        </div>
+    </div>
+    <div class="row mx-0" id="pergunta14" style="display: none; --bs-gutter-x: 0; padding-top:70px">
+        <div class="col-12">
+                <h2 class="color-main mb-0 ps-3" style="font-size: smaller">Cadeira Gamer Prizi Pz1006e, até 120 Kg, Ângulo ajustável do encosto, Vermelha</h2>
+            </div>
+            <div class="star-inner fw-bold">
+                <img class="img-fluid" src="images/cadeira-prizi-vermelha.png" alt="Cadeira Gamer Prizi Vermelha">
+             </div>
+            <img class="img-fluid" src="images/cadeira3.jpg" alt="Cadeira Gamer Prizi Vermelha">
+            <p class="text-center mt-2" style="font-size: smaller;">Vendido e entregue por: <strong>KaBuM!</strong> | <strong style="color: green;">Em estoque</strong></p>
+            <hr>
+            <span class="fs-6 fw-light product-price text-decoration-line-through ps-5">R$ 379,90</span><br>
+                <span class="fw-bold fs-1 ps-5">R$ 0,00</span><br>
+                <div class="d-flex justify-content-center mt-3">
+                    <a href="https://pay.minhavega.com/meABG9QVDkbG6Ea" class="mt-2 btn btn-success bg-main no-border btn-resgate-product" id="umdoistrestplink9">Resgatar agora</a>
+                </div>
+                <div class="descricao">
+                <img class="img-fluid" src="images/cadeira-vermelha.png" alt="">
+                </div>
+                <img class="img-fluid mt-5" src="images/desc.png">
+        </div>
+    <div class="row mx-0" id="pergunta15" style="display: none; --bs-gutter-x: 0; padding-top:75px">
+        <div class="col-12">
+                <h2 class="color-main mb-0 ps-3" style="font-size: smaller">Cadeira Gamer Prizi JX-1039B, até 120 kg, com Almofadas na lombar e pescoço, Azul</h2>
+            </div>
+            <div class="star-inner fw-bold">
+                <img class="img-fluid" src="images/cadeira-prizi-azul.png" alt="Cadeira Gamer Prizi Azul">
+            </div>
+            <img class="img-fluid" src="images/cadeira4.jpg" alt="Cadeira Gamer Prizi Azul">
+            <p class="text-center mt-2" style="font-size: smaller;">Vendido e entregue por: <strong>KaBuM!</strong> | <strong style="color: green;">Em estoque</strong></p>
+            <hr>
+            <span class="fs-6 fw-light product-price text-decoration-line-through ps-5">R$ 379,90</span><br>
+                <span class="fw-bold fs-1 ps-5">R$ 0,00</span><br>
+                <div class="d-flex justify-content-center mt-3">
+                    <a href="https://pay.minhavega.com/q510ZOYoapOgE9D" class="mt-2 btn btn-success bg-main no-border btn-resgate-product" id="umdoistrestplink10">Resgatar agora</a>
+                </div>
+                <div class="descricao">
+                <img class="img-fluid" src="images/cadeira-azul.png" alt="">
+                </div>
+                <img class="img-fluid mt-5" src="images/desc.png">
+        </div>
+    <div class="row mx-0" id="pergunta16" style="display: none; --bs-gutter-x: 0; padding-top:55px">
+        <div class="col-12 mt-3">
+            <h2 class="color-main mb-0 ps-3" style="font-size: smaller;">Monitor Gamer Concórdia PCFort 23.8" LED Full HD, 165Hz, 1ms, HDMI/DisplayPort, FreeSync, Preto e Prata - H238F165</h2>
+            <div class="star-inner fw-bold">
+                <img class="img-fluid" src="images/monitor-concordia.png" alt="Monitor Gamer Concórdia">
+            </div>
+            <img class="img-fluid" src="images/monitor-165.jpg" alt="Monitor Gamer Concórdia">
+            <p class="text-center mt-2" style="font-size: smaller;">Vendido e entregue por: <strong>KaBuM!</strong> | <strong style="color: green;">Em estoque</strong></p>
+            <hr>
+            <span class="fs-6 fw-light product-price text-decoration-line-through ps-5">R$ 639,99</span><br>
+                <span class="fw-bold fs-1 ps-5">R$ 0,00</span><br>
+                <div class="d-flex justify-content-center mt-3">
+                    <a href="https://pay.minhavega.com/VroegNOMWz13Kwj" class="mt-2 btn btn-success bg-main no-border btn-resgate-product" id="umdoistrestplink11">Resgatar agora</a>
+                </div>
+                <div class="descricao">
+                <img class="img-fluid" src="images/monitor-concordia-165hz.png" alt="">
+                </div>
+                <img class="img-fluid mt-5" src="images/desc.png">
+        </div>
+    </div>
+    <div class="row mx-0" id="pergunta17" style="display: none; --bs-gutter-x: 0; padding-top:55px">
+        <div class="col-12 mt-4">
+            <h2 class="color-main mb-0 ps-3" style="font-size: smaller;">Monitor Gamer Samsung T350, 24" FHD, Tela Plana, 75Hz, 5Ms, HDMI, FreeSync, Game Mode</h2>
+           </div>
+            <div class="star-inner">
+                <img class="img-fluid" src="images/monitor-samsung.png" alt="Monitor Gamer Samsung 75hz">
+            </div>
+            <img class="img-fluid" src="images/monitor%20samsung.jpg" alt="Monitor Gamer Samsung 75hz">
+            <p class="text-center mt-2" style="font-size: smaller;">Vendido e entregue por: <strong>KaBuM!</strong> | <strong style="color: green;">Em estoque</strong></p>
+            <hr>
+            <span class="fs-6 fw-light product-price text-decoration-line-through ps-5">R$ 559,99</span><br>
+                <span class="fw-bold fs-1 ps-5">R$ 0,00</span><br>
+                <div class="d-flex justify-content-center mt-3">
+                    <a href="https://pay.minhavega.com/rn4RgQx6qpAGwBV" class="mt-2 btn btn-success bg-main no-border btn-resgate-product" id="umdoistrestplink12">Resgatar agora</a>
+                </div>
+                <div class="descricao">
+                    <img class="img-fluid" src="images/desc-monitor.png">
+                </div>
+                <img class="img-fluid mt-5" src="images/desc.png">
+        </div>
+<script src="js/index.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+
+
+                    <script async="true" src="js/googletagmanager.js"></script>
+                </body></html>
